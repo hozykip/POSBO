@@ -1,0 +1,49 @@
+.btn-search {
+    background: #424242;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1c1c1c;
+  }
+  .btn-search:link, .btn-search:visited {
+    color: #fff;
+  }
+  .btn-search:active, .btn-search:hover {
+    background: #39b1e9;
+    color: #fff;
+  }
+  
+  
+  @media only screen and (max-width: 600px){
+    .content-right{
+      display: flex;
+    }
+    .content-right > *{ 
+      flex: 1;   
+      margin: 0 4px;
+    }
+  }
+
+  @media only screen and (min-width: 600px){
+    /* for tablet */
+    .content-right{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .content-right > *{    
+      margin: 0 4px;
+    }
+  }
+  @media only screen and (min-width: 768px){
+    /* for desktop */
+    .content-right{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .content-right > *{    
+      margin: 0 4px;
+    }
+  }
+
+  
